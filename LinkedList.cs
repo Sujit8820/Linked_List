@@ -26,8 +26,8 @@ namespace Linked_List_New
             }
             else
             {
-                node.next = Head;
-                Head = node;
+                Tail.next = node;
+                Tail = node;
             }
         }
 
